@@ -33,7 +33,7 @@ export const App = () => {
   const feedbackOptions = ['good', 'neutral', 'bad'];
 
   return (
-    <div>
+    <>
       <Section title="Please leave feedback">
         <FeedbackOptions
           options={feedbackOptions}
@@ -53,6 +53,6 @@ export const App = () => {
           <Notification message="No feedback given yet." />
         )}
       </Section>
-    </div>
+    </>
   );
 };

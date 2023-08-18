@@ -7,13 +7,13 @@ export const Statistics = ({
   total,
   positivePercentage,
 }) => (
-  <div>
+  <>
     <p>Good: {good}</p>
     <p>Neutral: {neutral}</p>
     <p>Bad: {bad}</p>
     <p>Total: {total}</p>
     <p>Positive Feedback: {positivePercentage}%</p>
-  </div>
+  </>
 );
 
 Statistics.propTypes = {
